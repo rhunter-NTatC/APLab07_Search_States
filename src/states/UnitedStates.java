@@ -1,3 +1,4 @@
+package states;
 import java.util.*;
 import java.io.*; 
 
@@ -28,7 +29,7 @@ public class UnitedStates
 		while(ans.equalsIgnoreCase("y"))
 		{
 			System.out.println();
-			System.out.print("Enter state -->");
+			System.out.print("Enter state --> ");
 			String stateName = keyboard.nextLine();
 			
 			/*
@@ -54,7 +55,7 @@ public class UnitedStates
 			
 			   
 			System.out.println();
-			System.out.print("Search again[Y/N]?");
+			System.out.print("Search again[Y/N]? ");
 			ans = keyboard.nextLine();
 
 		}

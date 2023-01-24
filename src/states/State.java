@@ -1,3 +1,4 @@
+package states;
 public class State implements Comparable
 {
 	// instance variables

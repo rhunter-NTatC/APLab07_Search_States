@@ -1,3 +1,4 @@
+package states;
 public class StatesTest
 {
 	public StatesTest()
